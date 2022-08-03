@@ -1,0 +1,46 @@
+body {
+    background-image: url("https://www.collinsdictionary.com/images/full/canvas_477755755_1000.jpg") ;
+}
+
+#label {
+    color: rgb(233, 147, 55);
+    font-size: 30px;
+    text-decoration: aqua;
+    font-weight: bold;
+    
+}
+
+#confidence {
+    color: rgb(231, 39, 205);
+    font-size: 30px;
+    text-decoration: aqua;
+    font-weight: bold;
+}
+
+h1 {
+    color: rgb(0,32,255);
+    background-color: cornsilk;
+}
+
+#show_sketch {
+    float: right ;
+}
+canvas {
+    border: 10px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 200px;
+    animation-iteration-count: infinite ;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 38px rgb(168, 232, 232)}
+    to{box-shadow: 1px 1px 38px rgb(223, 149, 196)}
+}
+
+p:hover {
+    margin-top: 10px;
+    font-size: 25px;
+    background-color: rgb(147, 227, 86);
+}
